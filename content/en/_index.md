@@ -24,13 +24,11 @@ sections:
       - subtitle: Authentication & Authorization
         subtitlePosition: center
         image: images/section/keyboard.png
-        link: https://gohugo.io/
         color: white
         button: 
-          name: Naver
-          link: https://gohugo.io/
+          name: Authentication & Authorization
+          link: /docs/auth/
           size: large
-          target: _blank
           color: 'white'
           bgcolor: '#283593'
       - subtitle: Configuration
@@ -38,8 +36,8 @@ sections:
         image: images/section/processor.png
         color: white
         button: 
-          name: Google
-          link: https://gohugo.io/
+          name: Configuration
+          link: /docs/configuration/
           size: large
           target: _blank
           color: 'white'
