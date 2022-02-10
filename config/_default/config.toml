@@ -1,5 +1,5 @@
-baseURL = "http://example.org"
-title = "Hugo Zdoc Theme"
+baseURL = 'https://www.SqlServerSecurity.com/'
+title = "SQL Server Security"
 theme = "zdoc"
 
 defaultContentLanguage = "en"

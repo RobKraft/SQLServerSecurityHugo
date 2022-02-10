@@ -1,5 +1,5 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://www.SqlServerSecurity.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'SQL Server Security'
 theme = 'zdoc'
 enableToc = false

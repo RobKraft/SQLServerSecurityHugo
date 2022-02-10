@@ -5,22 +5,16 @@ date: 2020-01-26T04:15:05+09:00
 draft: false
 # updatesBanner: "Banner - &nbsp; [Hugo ZDoc theme](https://github.com/zzossig/hugo-theme-zdoc) &nbsp; just arrived"
 landing:
-  height: 250
+  height: 320
   image: dbicon.png
   title:
     - SQL Server Security
   text:
-    - This site apsires to help you learn all you need to know about SQL Server related security topics either directly, or by providing links to great resources.
+    - This site apsires to help you learn all you need to know about SQL Server security topics.
   titleColor:
   textColor:
-  spaceBetweenTitleText: 25
-  buttons:
-    - link: docs
-      text: SQL Server Security Docs
-      color: primary
-  # backgroundImage: 
-  #   src: images/landscape.jpg
-  #   height: 600
+  spaceBetweenTitleText: 5
+
 footer:
 
 sections:
