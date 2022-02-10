@@ -7,20 +7,21 @@ themeOptions = ["light", "dark"]
 
 useFaviconGenerator = true # https://www.favicon-generator.org/
 
-enableTocSwitch = true
+enableTocSwitch = false
 enableLandingBackground = false
 enableSearch = true
 enableSearchHighlight = true
-enableLangChange = true
+enableLangChange = false
 enableDarkMode = true
 enableBreadcrumb = true
 enableBlogBreadcrumb = true
 enableEditBtn = false
-enableToc = true
+enableToc = false
 enableMenu = true
 enableNavbar = true
 enableFooter = true
 showPoweredBy = true
+wideViewAsDefault = true
 
 tocLevels = ["h2", "h3", "h4"]
 paginateWindow = 1
