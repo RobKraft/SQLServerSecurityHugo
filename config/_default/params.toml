@@ -1,7 +1,7 @@
 logo = true
-logoText = "ZDoc"
+logoText = "Home"
 logoType = "short" # long, short
-description = "The ZDoc theme for Hugo example site."
+description = "This site apsires to help you learn all you need to know about SQL Server security topics."
 
 themeOptions = ["light", "dark"]
 
