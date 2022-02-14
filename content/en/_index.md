@@ -23,7 +23,7 @@ sections:
     cards:
       - subtitle: Authentication & Authorization
         subtitlePosition: center
-        image: images/section/keyboard.png
+        image: images/section/auth.png
         color: white
         button: 
           name: Authentication & Authorization
@@ -33,7 +33,7 @@ sections:
           bgcolor: '#283593'
       - subtitle: Configuration
         subtitlePosition: center
-        image: images/section/processor.png
+        image: images/section/configuration.png
         color: white
         button: 
           name: Configuration
@@ -44,10 +44,10 @@ sections:
           bgcolor: '#283593'
       - subtitle: Backups
         subtitlePosition: center
-        image: images/section/root-server.png
+        image: images/section/backups.png
         color: white
         button: 
-          name: Yahoo
+          name: Backups
           link: https://gohugo.io/
           size: large
           target: _blank
@@ -58,10 +58,10 @@ sections:
     cards:
       - subtitle: SQL Injection
         subtitlePosition: center
-        image: images/section/root-server.png
+        image: images/section/sqlinjection.png
         color: white
         button: 
-          name: Yahoo
+          name: SQL Injection
           link: https://gohugo.io/
           size: large
           target: _blank
@@ -69,10 +69,10 @@ sections:
           bgcolor: '#283593'
       - subtitle: Data In Transit
         subtitlePosition: center
-        image: images/section/root-server.png
+        image: images/section/transit.png
         color: white
         button: 
-          name: Yahoo
+          name: Data In Transit
           link: https://gohugo.io/
           size: large
           target: _blank
@@ -80,10 +80,10 @@ sections:
           bgcolor: '#283593'
       - subtitle: Process Management
         subtitlePosition: center
-        image: images/section/root-server.png
+        image: images/section/processmgmt.png
         color: white
         button: 
-          name: Yahoo
+          name: Process Management
           link: https://gohugo.io/
           size: large
           target: _blank
@@ -94,10 +94,10 @@ sections:
     cards:
       - subtitle: Sensitive Data
         subtitlePosition: center
-        image: images/section/root-server.png
+        image: images/section/sensitivedata.png
         color: white
         button: 
-          name: Yahoo
+          name: Sensitive Data
           link: https://gohugo.io/
           size: large
           target: _blank
@@ -105,10 +105,10 @@ sections:
           bgcolor: '#283593'
       - subtitle: Compliance
         subtitlePosition: center
-        image: images/section/root-server.png
+        image: images/section/compliance.png
         color: white
         button: 
-          name: Yahoo
+          name: Compliance
           link: https://gohugo.io/
           size: large
           target: _blank
@@ -116,10 +116,10 @@ sections:
           bgcolor: '#283593'
       - subtitle: The Hackers
         subtitlePosition: center
-        image: images/section/root-server.png
+        image: images/section/hackers.png
         color: white
         button: 
-          name: Yahoo
+          name: Hackers
           link: https://gohugo.io/
           size: large
           target: _blank
