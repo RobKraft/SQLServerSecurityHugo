@@ -39,7 +39,6 @@ sections:
           name: Configuration
           link: /docs/configuration/
           size: large
-          target: _blank
           color: 'white'
           bgcolor: '#283593'
       - subtitle: Backups
@@ -48,9 +47,8 @@ sections:
         color: white
         button: 
           name: Backups
-          link: https://gohugo.io/
+          link: /docs/backups/
           size: large
-          target: _blank
           color: 'white'
           bgcolor: '#283593'
   - bgcolor: teal
@@ -62,9 +60,8 @@ sections:
         color: white
         button: 
           name: SQL Injection
-          link: https://gohugo.io/
+          link: /docs/injection/
           size: large
-          target: _blank
           color: 'white'
           bgcolor: '#283593'
       - subtitle: Data In Transit
@@ -73,9 +70,8 @@ sections:
         color: white
         button: 
           name: Data In Transit
-          link: https://gohugo.io/
+          link: /docs/transit/
           size: large
-          target: _blank
           color: 'white'
           bgcolor: '#283593'
       - subtitle: Process Management
@@ -84,9 +80,8 @@ sections:
         color: white
         button: 
           name: Process Management
-          link: https://gohugo.io/
+          link: /docs/process/
           size: large
-          target: _blank
           color: 'white'
           bgcolor: '#283593'
   - bgcolor: teal
@@ -98,9 +93,8 @@ sections:
         color: white
         button: 
           name: Sensitive Data
-          link: https://gohugo.io/
+          link: /docs/sensitive/
           size: large
-          target: _blank
           color: 'white'
           bgcolor: '#283593'
       - subtitle: Compliance
@@ -109,9 +103,8 @@ sections:
         color: white
         button: 
           name: Compliance
-          link: https://gohugo.io/
+          link: /docs/compliance/
           size: large
-          target: _blank
           color: 'white'
           bgcolor: '#283593'
       - subtitle: The Hackers
@@ -120,9 +113,8 @@ sections:
         color: white
         button: 
           name: Hackers
-          link: https://gohugo.io/
+          link: /docs/hackers/
           size: large
-          target: _blank
           color: 'white'
           bgcolor: '#283593'
 ---

@@ -6,7 +6,7 @@ draft: false
 weight: 2
 ---
 
-Configuring strong authentication for SQL Server might be the most important task a DBA performs.  Microsoft SQL Server is a very popular target for attacks by hackers, particularly by attempting to guess a password for the account named 'sa' and by using SQL Injection.
+Configuring strong authentication for SQL Server might be the most important task a DBA performs.  SQL Server is a very popular target for attacks by hackers, particularly by attempting to guess a password for the account named 'sa' and by using SQL Injection.
 
 {{< alert theme="danger" dir="ltr" >}} **Disable the 'sa' account and never use it!**
 {{< /alert >}}

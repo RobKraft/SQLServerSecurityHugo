@@ -9,3 +9,9 @@
   name = "Blog"
   url = "blog"
   weight = 2
+
+  [[main]]
+  identifier = "about"
+  name = "About"
+  url = "about"
+  weight = 3
