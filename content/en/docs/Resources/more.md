@@ -13,6 +13,7 @@ https://www.idera.com/productssolutions/freetools
 https://doccolabs.com/
 https://dbatools.io/
 https://sqlstudies.com/free-scripts/
+https://www.cisa.gov/free-cybersecurity-services-and-tools
 
 Physical security
 SQL Browser service

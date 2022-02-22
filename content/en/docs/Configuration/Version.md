@@ -5,6 +5,9 @@ date: 2020-01-28T00:36:14+09:00
 draft: false
 weight: 2
 ---
+https://sqlserverbuilds.blogspot.com/
+Support for SQL Server 2012 ends July 12, 2022
+Support for SQL Server 2014 ends July  9, 2024
 
 Microsoft releases a new version of SQL Server roughly every two years.  Although you may not need any of the features provided in the new version, it is important to upgrade to a version of SQL Server that is still under support in order to obtain security fixes, especially if your SQL Server is exposed to the Internet.
 

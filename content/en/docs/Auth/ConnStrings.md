@@ -12,5 +12,7 @@ Using Integrated Security (aka Windows Authentication) does not require credenti
 
 There are drawbacks to Integrated Security.  One drawback is when you have desktop applications using Integrated Security, which results in the applications connecting to SQL Server with the permissions of the user logged into the OS.  Application developers often put logic into their programs to prevent data modifications and deletes based on the state of the data, but a user with Integrated Security could use another tool to connect to the SQL Server database and edit the data directly in the tables.  
 
+https://www.connectionstrings.com/sql-server/
+
 {{< alert theme="danger" dir="ltr" >}} **Disable the 'sa' account and never use it!**
 {{< /alert >}}

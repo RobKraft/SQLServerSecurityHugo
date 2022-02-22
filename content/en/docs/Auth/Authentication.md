@@ -31,8 +31,8 @@ When using Windows Authentication, database administrators map groups from Windo
 
 {{< alert theme="danger" dir="ltr" >}}
 **1. Disable the 'sa' account and never use it!**
-**2. Never allow any administrative level accounts to be used by an application.**
-**3. Don't allow administrative level accounts to be used in non-production environments.**
+**2. Never allow any administrative accounts to be used by an application.**
+**3. Don't allow administrative accounts to be used in non-production environments by an application.**
 {{< /alert >}}
 
 * [Configure SQL Server to support Windows Authentication on Linux](https://www.mssqltips.com/sqlservertip/5075/configure-sql-server-on-linux-to-use-windows-authentication)
