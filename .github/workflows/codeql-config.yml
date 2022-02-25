@@ -1,1 +1,8 @@
+name: "just a test"
+  
+paths:
+- src
 
+paths-ignore: 
+- src/node_modules
+- '**/*.test.js'
