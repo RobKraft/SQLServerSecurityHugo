@@ -1,5 +1,8 @@
 name: "just a test"
   
+queries:
+- uses: security-and-quality
+
 paths:
 - src
 
