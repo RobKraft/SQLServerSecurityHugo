@@ -1,0 +1,11 @@
+name: "just a test"
+  
+queries:
+- uses: security-and-quality
+
+paths:
+- src
+
+paths-ignore: 
+- src/node_modules
+- '**/*.test.js'
