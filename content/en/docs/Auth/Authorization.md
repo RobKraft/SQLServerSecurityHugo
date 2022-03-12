@@ -1,11 +1,13 @@
 ---
 title: "Authorization"
-description: "Configure the permissions the user or service is allowed to perform."
+description: "Configure the permissions the connected user or service is allowed to perform."
 date: 2020-01-28T00:36:14+09:00
 draft: false
 enableToc: false
 weight: 4
 ---
+
+###### Authorizing users and services logged into SQL Server 
 
 {{< alert theme="danger" dir="ltr" >}}
 **1. Disable the 'sa' account and never use it!**

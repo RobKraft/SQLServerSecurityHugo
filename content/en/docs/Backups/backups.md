@@ -6,6 +6,8 @@ draft: false
 weight: 6
 ---
 
+###### Consider encrypting your database backups
+
 If your database contains no sensitive data that should be protected, then you probably don't need to encrypt the backups of your database.  But keep in mind that even the names, addresses, phone numbers, and email addresses of real people are considered Personally Identifiable Information (PII) and should be protected.
 
 Hackers often search for database backup files that are unencrypted.  They can easily restore the files in their own environments and access all the data they contain.  Therefore it is important to implement encryption as part of your backup process to prevent unwanted theft of data from a file backup that was exposed on the Internet or on someone's personal computer or USB drive.

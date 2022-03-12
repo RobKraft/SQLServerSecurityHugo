@@ -28,7 +28,7 @@ header:
     paddingY: 0
     align: center
     title:
-      - Zzo blog
+      - SQL Server Security blog
     subtitle:
       - 
     titleColor: 

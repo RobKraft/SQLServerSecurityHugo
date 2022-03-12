@@ -21,4 +21,11 @@ weight: -4
 **12. Disable the 'sa' account and never use it!**
 **13. Never allow any administrative accounts to be used by an application.**
 **14. Don't allow administrative accounts to be used in non-production environments by an application.**
+**15. Disable XP_CMDSHELL, unless you need it and also are making sure that it is only used securely.**
+**16. Ensure you are logging and regularly monitoring failed login attempts.**
+**17. Ensure database backups are encrypted if they contain any sensitive data.**
+{{< /alert >}}
+
+{{< alert theme="danger" dir="ltr" >}}
+**There is more!  This site offers guidance for other steps you can take to strengthen the security of your SQL Server than just those contained on this list.**
 {{< /alert >}}

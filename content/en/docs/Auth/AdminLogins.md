@@ -1,10 +1,12 @@
 ---
 title: "Admin Login Accounts"
-description: "Guidance for Administrative Accounts."
+description: "Guidance for accounts used to Administer SQL Server."
 date: 2020-01-28T00:36:14+09:00
 draft: false
 weight: 6
 ---
+
+###### Accounts used by SQL Server Administrators
 
 SQL Server requires an account that allows someone to configure and manage the SQL Server, and that account is called an Admin account.
 

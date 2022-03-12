@@ -6,7 +6,4 @@ draft: false
 weight: 2
 ---
 
-Configuring 
-
-{{< alert theme="danger" dir="ltr" >}} **Disable the 'sa' account and never use it!**
-{{< /alert >}}
+What are hackers looking for? If you are not concerned because your data is not sensitive, read on, because hackers are rarely after your data.  Your data is secondary.  The primary thing most want to do is install malware on the server SQL Server is running on and use it to infiltrate your entire computer network.

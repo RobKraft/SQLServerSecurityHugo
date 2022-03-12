@@ -6,7 +6,7 @@ draft: false
 weight: 2
 ---
 
-Many organizations must comply rules from government, industry consortiums, and other organizations, and often some rules exist regarding the protection of sensitive data.
+Many organizations must comply with rules from government, industry consortiums, and other organizations, and often some rules exist regarding the protection of sensitive data.
 
 In addition, many businesses elect to adopt a set of rules to follow to protect sensitive data, and these rules are often monitored by internal audit deparments.
 
@@ -35,6 +35,7 @@ HIPAA and SOX
 https://www.red-gate.com/simple-talk/devops/data-privacy-and-protection/hipaa-and-database-administration-part-2/
 
 
+
 Risk assessment.  Risk Mitigation.  Disaster Recovery.
 
 C2 Auditing: https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/c2-audit-mode-server-configuration-option?redirectedfrom=MSDN&view=sql-server-ver15
@@ -42,6 +43,11 @@ C2 Auditing: https://docs.microsoft.com/en-us/sql/database-engine/configure-wind
 
 Tools
 https://www.idera.com/products/sql-compliance-manager
-https://www.apexsql.com/sql-tools-audit.aspx
+
 {{< alert theme="danger" dir="ltr" >}} **Disable the 'sa' account and never use it!**
 {{< /alert >}}
+
+SQL Compliance Manager Products:
+
+* From Quest, [ApexSQL](https://apexsql.com/)
+* From [Idera](https://www.idera.com/)

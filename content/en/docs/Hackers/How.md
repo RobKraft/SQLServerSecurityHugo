@@ -13,6 +13,3 @@ Stealing backups
 Stealing data in transit
 buffer Overflow
  
-
-{{< alert theme="danger" dir="ltr" >}} **Disable the 'sa' account and never use it!**
-{{< /alert >}}
