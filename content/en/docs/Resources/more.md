@@ -68,4 +68,9 @@ Email mailing lists:
 * Brent Ozar
 * SQLServerCentral.com
 
+https://docs.microsoft.com/en-us/azure/defender-for-cloud/defender-for-sql-introduction
 
+Vulnerablities:
+https://stack.watch/product/joomla/joomla/
+
+https://www.cvedetails.com/product/251/Microsoft-Sql-Server.html?vendor_id=26
