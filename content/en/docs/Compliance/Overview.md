@@ -6,48 +6,14 @@ draft: false
 weight: 2
 ---
 
+###### Compliance
+
 Many organizations must comply with rules from government, industry consortiums, and other organizations, and often some rules exist regarding the protection of sensitive data.
 
 In addition, many businesses elect to adopt a set of rules to follow to protect sensitive data, and these rules are often monitored by internal audit deparments.
 
-Some of the most well-know sets of compliance rules are:
-* SOX
-* PII DSS
-* HIPAA
-* GDPR
-* FISMA/NIST: https://ncp.nist.gov/checklist/838
-* GLBA
-* ISO/IEC 27001
-* FERPA
-* FIPS: https://docs.microsoft.com/en-US/troubleshoot/sql/security/sql-2016-fips-140-2-compliant-mode
-* NERC CIP
-* CJIS
-* FERBA
-* CIS-CAT
-Process management and monitoring.
-PCI: https://www.mssqltips.com/sqlservertip/3216/what-does-pci-dss-mean-for-your-sql-server-environment/
+Some of the compliance rules are the same for every set of rules.  For example, "Change the default password" is a rule common to most standards.  Unfortunately, some of the laws are very broad and open to interpretation.
 
-FERPA: https://solutioncenter.apexsql.com/sql-server-auditing-and-compliance-for-ferpa/
+Showing to auditors that your software and processes comply with guidelines is necessary.  Therefore most organizations that need to comply acquire third party software to assist with compliance, monitoring, and reporting.
 
-SOX: https://www.mssqltips.com/sqlservertip/1300/sox-for-sql-server-dbas/
-
-HIPAA and SOX
-https://www.red-gate.com/simple-talk/devops/data-privacy-and-protection/hipaa-and-database-administration-part-2/
-
-
-
-Risk assessment.  Risk Mitigation.  Disaster Recovery.
-
-C2 Auditing: https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/c2-audit-mode-server-configuration-option?redirectedfrom=MSDN&view=sql-server-ver15
-
-
-Tools
-https://www.idera.com/products/sql-compliance-manager
-
-{{< alert theme="danger" dir="ltr" >}} **Disable the 'sa' account and never use it!**
-{{< /alert >}}
-
-SQL Compliance Manager Products:
-
-* From Quest, [ApexSQL](https://apexsql.com/)
-* From [Idera](https://www.idera.com/)
+It is not enough to run a query at a single point in time to show that the 'sa' account is disabled.  You also need to show that you have processes in place to ensure that it is always disabled, or that if it gets re-enabled the processes will detect this and let appropriate personnel know.  From an auditors perspective, documentation of the processes you follow to follow compliance guidelines is as important as following the guidelines.
