@@ -3,7 +3,7 @@ title: "Patches"
 description: "Keep your SQL Server Cumulative Updates (CU) up to date."
 date: 2020-01-28T00:36:14+09:00
 draft: false
-weight: 4
+weight: 10
 ---
 
 ###### Patches, known on SQL Server as Cumulative Updates

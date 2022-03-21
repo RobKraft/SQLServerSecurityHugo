@@ -30,6 +30,7 @@ Some of the risks that can lead to losses include:
 * Physical destruction from fire, floods, tornados, hurricanes, war, or other.
 * Data destruction performed intentionally by disgruntled employees.
 * Data destruction performed unintentionally by employees.
+* Theft of physical servers.
 
 ###### Risk Management
 

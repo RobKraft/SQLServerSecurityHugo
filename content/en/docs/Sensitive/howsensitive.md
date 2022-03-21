@@ -52,6 +52,8 @@ App encryption.  SQL Encryption.  Masking.  Structural encyprtion?
 Partial reveals. How to show non-encrypted data to some people when needed
 -impact on 3rd party tools
 
+Row level security https://docs.microsoft.com/en-us/sql/relational-databases/security/sql-server-security-best-practices?view=sql-server-ver
+
 ###### Protecting data in non-production systems
 
 ###### Protecting data in database backups

@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
-  "name": "Hugo Zdoc theme",
-  "short_name": "Hugo Zdoc theme",
+  "name": "SQL Server Security",
+  "short_name": "SQL Server Security",
   "version": "1.0.0",
   "default_locale": "en",
-  "description": "Hugo simple documentation theme",
-  "start_url": "https://themes.gohugo.io/theme/hugo-theme-zdoc/",
+  "description": "Everything you need to know about securing Microsoft's SQL Server",
+  "start_url": "https://www.sqlserversecurity.com/",
   "icons": [
     {
       "src": "favicon/android-icon-36x36.png",

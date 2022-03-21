@@ -3,7 +3,7 @@ title: "Protecting Ports"
 description: "Guidance for securing protocols and ports."
 date: 2020-01-28T00:36:14+09:00
 draft: false
-weight: 2
+weight: 6
 ---
 
 ###### Ports and Protocols used by SQL Server
@@ -39,4 +39,4 @@ Ultimately, any security guidance depends a lot on your environment.
 Further Reading:
 
 * Information about [other ports used by SQL Server products](https://www.sqlsplus.com/sql-server-ports-tcp-and-udp-ports/) including 1434, 2383, 2382, 135, 80, and 443.
-* Microsoft recommends that you [disable netbios and SMB ports](https://docs.microsoft.com/en-us/sql/sql-server/install/security-considerations-for-a-sql-server-installation?view=sql-server-ver15) on a server running SQL Server
+* Microsoft recommends that you [disable netbios and SMB ports](https://docs.microsoft.com/en-us/sql/sql-server/install/security-considerations-for-a-sql-server-installation?view=sql-server-ver15) on a server running SQL Server.

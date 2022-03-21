@@ -3,7 +3,7 @@ title: "Version of SQL Server"
 description: "Guidance for specific versions of SQL Server."
 date: 2020-01-28T00:36:14+09:00
 draft: false
-weight: 5
+weight: 12
 ---
 
 ###### Use a supported version of SQL Server
@@ -13,6 +13,11 @@ Microsoft releases a new version of SQL Server roughly every two years.  Althoug
 If a security vulnerability is discovered in a version of SQL Server that is no longer under support, Microsoft will probably not provide a patch to fix the vulnerability, and you can be sure hackers will attempt to exploit it.
 
 Microsoft offers you the ability to buy [Extended Security Support](https://docs.microsoft.com/en-us/sql/sql-server/end-of-support/sql-server-extended-security-updates), but you must purchase these before the security vulnerability is found and even extended support will eventually no longer be offered.
+
+Run this command to find the version of SQL Server you are running:
+```
+select @@version
+```
 
 Additional Resources:
 

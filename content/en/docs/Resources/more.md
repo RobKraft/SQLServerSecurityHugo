@@ -6,6 +6,15 @@ draft: false
 weight: -4
 ---
 
+
+SQL Server Agent security
+SQL Server Service Broker - future?
+SQL Server Profiler future?
+SQL Server Reporting Services - future?
+SSIS, SSAS, etc.
+
+An installation checklist for hardened install
+
 A page describing a devops pipeline to secure everything.
 * Dev training about risks and proper coding
 * Pair programming
@@ -70,7 +79,18 @@ Email mailing lists:
 
 https://docs.microsoft.com/en-us/azure/defender-for-cloud/defender-for-sql-introduction
 
+SQL Server Security by Robert Sheldon:
+https://www.red-gate.com/simple-talk/devops/data-privacy-and-protection/introduction-to-sql-server-security-part-1/
+
+
+[Red-Gate SQL Server Security Blog](https://www.red-gate.com/simple-talk/databases/sql-server/security/)
+
 Vulnerablities:
 https://stack.watch/product/joomla/joomla/
 
 https://www.cvedetails.com/product/251/Microsoft-Sql-Server.html?vendor_id=26
+
+Microsoft's [SQL Server Security Best Practices](https://docs.microsoft.com/en-us/sql/relational-databases/security/sql-server-security-best-practices)
+
+Free stuff to do right away:
+* SQL Server [Vulnerability Assessment](https://docs.microsoft.com/en-us/sql/relational-databases/security/sql-vulnerability-assessment)
