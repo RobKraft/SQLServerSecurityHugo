@@ -3,7 +3,7 @@ title: "Typical Web App Design"
 description: "A design for a typical web app"
 date: 2020-01-28T00:34:51+09:00
 draft: false
-weight: -4
+weight: 6
 ---
 
 You won't be able to use Windows Authentication to easily let the SQL Server database determine the permissions for your users.  In the world of web apps, REST APIs, and phone apps, that is not a viable option.  But, you still have a choice to make between SQL Auth or Windows Auth.  Typically, all the apps on client devices, whether those are web apps or phone apps, will communicate with a Web Server app, which could be a REST API.  It is that app, the one running on the web server, that makes the connection to the database; therefore all users going through the app will connect to the database using the same credentials.  As far as SQL Server is concerned there is just one user - the web app (or REST API).  That web app still needs a connection string and that connection string will either use Windows Authentication or SQL Authentication.  If you use SQL Auth, you have to store a login/pwd to build the connection string, so you have the hassle of securing those credentials.  If you use Windows Auth, then the connection to SQL Server will be made using the permissions assigned to the account under which the Web App runs.  Every web app that runs logs into the operating system; so you can use a built-in account or you can create a custom account in the OS to be used by the web app to log in to the OS.  If you take this approach, you will put that login that the web app uses to log in to the OS into an Active Directory group, and map that Active Directory group to a role in SQL Server just like you probably do now.

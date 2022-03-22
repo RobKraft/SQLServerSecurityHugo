@@ -29,7 +29,7 @@ weight: 4
 * CJIS
 * FERBA
 * CIS-CAT
-* [C2 Auditing](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/c2-audit-mode-server-configuration-option?redirectedfrom=MSDN&view=sql-server-ver15)
+* [C2 Auditing](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/c2-audit-mode-server-configuration-option?redirectedfrom=MSDN&view=sql-server-ver15) - This feature will be removed in a future version of Microsoft SQL Server. Avoid using this feature in new development work, and plan to modify applications that currently use this feature. The C2 security standard has been superseded by Common Criteria Certification. See the common criteria compliance enabled Server Configuration Option.
 
 ###### SQL Compliance Manager Products
 

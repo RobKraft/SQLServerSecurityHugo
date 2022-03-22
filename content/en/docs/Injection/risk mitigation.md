@@ -26,7 +26,7 @@ Programmers are not the only ones responsible for mitigating the risk of SQL Inj
 
 The following activities also help mitigate SQL Injection risks:
 
-* Have SQL Server log in to the operating system with the minimal permissions.
+* Have SQL Server log in to the operating system with the least privileges needed.
 * Have applications use only the db_datareader and db_datawriter roles.  Do not allow applications to create tables or other objects in databases.
 * Disable xp_cmdshell
 * Monitor Logs

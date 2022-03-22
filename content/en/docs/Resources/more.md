@@ -3,7 +3,7 @@ title: "More"
 description: "A Checklist For Hardening Your Server"
 date: 2020-01-28T00:34:51+09:00
 draft: false
-weight: -4
+weight: 10
 ---
 
 
@@ -94,3 +94,25 @@ Microsoft's [SQL Server Security Best Practices](https://docs.microsoft.com/en-u
 
 Free stuff to do right away:
 * SQL Server [Vulnerability Assessment](https://docs.microsoft.com/en-us/sql/relational-databases/security/sql-vulnerability-assessment)
+
+Example of hacking group that [targets source code](https://www.bleepingcomputer.com/news/security/microsoft-investigating-claims-of-hacked-source-code-repositories/)
+
+Certificate management and security
+
+Tools:
+* [Windows Defender Application Control](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control) to restrict when applications are allowed to run on a server.
+* Microsoft's list of [security functions](https://docs.microsoft.com/en-us/sql/t-sql/functions/security-functions-transact-sql) useful in managing security.
+* Microsoft's list of [security-related views](https://docs.microsoft.com/en-us/sql/relational-databases/system-catalog-views/security-catalog-views-transact-sql)
+* Microsoft's list of [security-related dynamic management views](https://docs.microsoft.com/en-us/sql/relational-databases/system-dynamic-management-views/security-related-dynamic-management-views-and-functions-transact-sql)
+
+secure xp_cmdshell: https://docs.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-xp-cmdshell-proxy-account-transact-sql?view=sql-server-ver15
+
+simpler checklist: https://www.mssqltips.com/sqlservertip/3159/sql-server-security-checklist/
+
+https://glennsqlperformance.com/resources/
+
+https://www.cisecurity.org/benchmark/microsoft_sql_server
+
+https://docs.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-xp-cmdshell-proxy-account-transact-sql?view=sql-server-ver15
+
+Execute As function

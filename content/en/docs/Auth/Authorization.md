@@ -11,8 +11,9 @@ weight: 4
 
 {{< alert theme="danger" dir="ltr" >}}
 **1. Disable the 'sa' account and never use it!**
-**2. Grant the minimal permissions needed.**
+**2. Grant the least privileges needed to each account.**
 {{< /alert >}}
+
 Most applications need no permissions other than the ability to perform CRUD operations (Insert, Select, Update, and Delete).  These permissions can be provided using the built-in db_datareader and db_datawriter roles.
 Work with developers to make sure their applications do not need the ability to create tables or other structures in the database.
 Use one role for applications that need to read and write data.  

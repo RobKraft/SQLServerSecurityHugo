@@ -17,9 +17,14 @@ Many tools and features to aid your monitoring efforts are mentioned elsewhere o
 * SQL Server Error Log
 * Windows Application Event Log
 * Extended Events
+  * https://docs.microsoft.com/en-us/sql/relational-databases/security/auditing/sql-server-audit-database-engine?view=sql-server-ver15
+* SQL Server Agent Error Logs 
+* SQL Server Agent Job History
 * Stored procedures (Sp_who)
-* SQL Server [Vulnerability Assessment](https://docs.microsoft.com/en-us/sql/relational-databases/security/sql-vulnerability-assessment)
-* SQL Server [Data Discover and Classification](https://docs.microsoft.com/en-us/sql/relational-databases/security/sql-data-discovery-and-classification)
+* Track SQL Logins: https://www.sqlshack.com/using-extended-events-review-sql-server-failed-logins/
+* C2 Audit Logs
+* SQL Server [Policy Based Management](https://docs.microsoft.com/en-us/sql/relational-databases/policy-based-management/administer-servers-by-using-policy-based-management?view=sql-server-ver15)
+* SIEM (Security Information and Event Management) Tools
 
 Because there are many things that need to be monitored, you may want to consider third-party tools that aggregate monitoring from many sources into a single dashboard that includes immediate notification when values change or thresholds are exceeded.
 
@@ -41,3 +46,9 @@ apexsql
 
 
 **Examples to come of things you should monitor, the tools SQL server provides and also tools from other vendors than can be very helpful.**
+
+* SQL Server [Vulnerability Assessment](https://docs.microsoft.com/en-us/sql/relational-databases/security/sql-vulnerability-assessment)
+* SQL Server [Data Discover and Classification](https://docs.microsoft.com/en-us/sql/relational-databases/security/sql-data-discovery-and-classification)
+
+
+SQL Server provides logs other than those mentioned above that you probably want to monitor and review occasionally.  The other logs are unlikely to contain items of interest to security professionals, but may be helpful for troubleshooting other problems.  DatabaseMail, SSRS, SSIS, etc.
