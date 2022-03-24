@@ -1,7 +1,7 @@
 ---
 title: SQL Server Security
 description: Hugo zzo, zdoc theme documentation home page
-date: 2020-01-26T04:15:05+09:00
+date: 2022-02-27T04:15:05+09:00
 draft: false
 # updatesBanner: "Banner - &nbsp; [Hugo ZDoc theme](https://github.com/zzossig/hugo-theme-zdoc) &nbsp; just arrived"
 landing:

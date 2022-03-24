@@ -1,7 +1,7 @@
 ---
 title: "How do hackers attack?"
 description: "Describes how hackers are attacking your SQL Servers."
-date: 2020-01-28T00:36:14+09:00
+date: 2022-02-27T00:36:14+09:00
 draft: false
 weight: 4
 ---
@@ -60,3 +60,9 @@ Many developers store their source code in repositories publically accessible on
 
 Once hackers are inside... 
 Running encryption TLS to talk to command and control
+
+Microsoft's SQL Server has historically had very few security vulnerabilities.  You can keep an eye on vulnerabilities from these two sites:
+
+* Stack.watch [Vulnerablities Watch](https://stack.watch/product/microsoft/sql-server/)
+* [CVE Details](https://www.cvedetails.com/product/251/Microsoft-Sql-Server.html?vendor_id=26)
+* [Buffer overflow for SQL Server 2000](https://www.fortiguard.com/encyclopedia/ips/11717/ms-sql-server-buffer-overflow).

@@ -1,7 +1,7 @@
 ---
 title: "What is the risk posed by SQL Injection?"
 description: "The damage that can be done by SQL Injection"
-date: 2020-01-28T00:34:51+09:00
+date: 2022-02-27T00:34:51+09:00
 draft: false
 weight: 4
 ---

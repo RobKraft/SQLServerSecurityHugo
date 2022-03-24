@@ -1,7 +1,7 @@
 ---
 title: "SQL Server Service Accounts"
 description: "Guidance for accounts used by SQL Server to log in to the Operating System."
-date: 2020-01-28T00:36:14+09:00
+date: 2022-02-27T00:36:14+09:00
 draft: false
 weight: 11
 ---

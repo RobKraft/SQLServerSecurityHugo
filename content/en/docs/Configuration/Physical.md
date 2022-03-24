@@ -1,7 +1,7 @@
 ---
 title: "Physical Security"
 description: "Guidance for physical security of SQL Server."
-date: 2020-01-28T00:36:14+09:00
+date: 2022-02-27T00:36:14+09:00
 draft: false
 weight: 2
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Installation Checklist"
 description: "A Checklist For Installing Your SQL Server"
-date: 2020-01-28T00:34:51+09:00
+date: 2022-02-27T00:34:51+09:00
 draft: false
 weight: 5
 ---

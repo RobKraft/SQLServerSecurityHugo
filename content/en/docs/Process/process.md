@@ -1,7 +1,7 @@
 ---
 title: "Ongoing Processes"
 description: "Security is not something to implement and forget. It must be monitored."
-date: 2020-01-28T00:34:51+09:00
+date: 2022-02-27T00:34:51+09:00
 draft: false
 weight: 2
 ---
@@ -45,7 +45,7 @@ This web site has some checklists, but for a small amount of money there are man
 
 ###### Center for Internet Security Benchmarks
 
-The Center for Internet Security (CIS) maintains benchmarks for many software products including [SQL Server](https://www.cisecurity.org/benchmark/microsoft_sql_server).  The benchmarks include a free checklist of hardening recommendations.  In addition, CIS provides a tool, CIS-Cat Pro, you can use to automated assessment of your adherence to benchmarks.  The configurable tool allows you to exclude rules that don't apply.  
+The Center for Internet Security (CIS) maintains benchmarks for many software products including [SQL Server](https://www.cisecurity.org/benchmark/microsoft_sql_server).  The benchmarks include a free checklist of hardening recommendations.  In addition, CIS provides a tool, CIS-Cat Pro, you can use to automated assessment of your adherence to benchmarks.  The configurable tool allows you to exclude rules that don't apply.  They also offer CIS-CAT Lite for free, but it doesn't include any checks for SQL Server.
 
 
 https://www.sqlshack.com/top-10-security-considerations-sql-server-instances/

@@ -1,7 +1,7 @@
 ---
 title: "The Urgent To Do List"
 description: "A Checklist For Securing the Urgent Vulnerabilities."
-date: 2020-01-28T00:34:51+09:00
+date: 2022-02-27T00:34:51+09:00
 draft: false
 weight: 2
 ---
