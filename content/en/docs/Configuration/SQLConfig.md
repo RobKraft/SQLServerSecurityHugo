@@ -26,6 +26,20 @@ Developers should architect applications that avoid the need to use XP_CMDSHELL.
 
 There are at least a dozen other features than should be disabled if they are not used.  You can find them under the CIS Benchmarks under the topic of Surface Area Reduction.  The [Center for Internet Security](https://www.cisecurity.org/cis-benchmarks/) provides benchmarks for SQL Server and many other products, along with tools to help you insure your environment is managed securely.  Much of their guidance matches what you will find on this web site.
 
+###### SQL Server Features to disable
+
+1. Ad Hoc Distributed Queries
+2. clr enabled
+3. cross db ownership chaining
+4. Database Mail XPs
+5. Ole Automation Procedures
+6. remote access
+7. remote admin connections
+8. scan for startup procs
+
+Trustworthy databases
+
+
 
 {{< alert theme="danger" dir="ltr" >}} **Disable XP_CMDSHELL if you are not using it.**
 {{< /alert >}}

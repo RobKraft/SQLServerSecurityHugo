@@ -32,6 +32,22 @@ Because there are many things that need to be monitored, you may want to conside
 2. OS patched
 3. Cloud if cloud hosted or ISP hosted -physical and network and shared environs
 
+###### Assessments
+
+What you may be engaged in right now, reading the content of this website, is an assessment of the security of your SQL Server and its data.  Here are some ways to do assessments:
+
+* Figure out what you think you need to know and fix anything you find that is insecure,
+* Follow a checklist or use a tool (software package) to perform a one-time assessment,
+* Schedule software to run automatically that assesses the security of your of your environment,
+* Hire a company to audit your environment and perform an assessment
+
+This web site has some checklists, but for a small amount of money there are many software vendors that provide products that can continually monitor your environment and notify you when things change.  You can even do some of this with Policy Management built into SQL Server.
+
+###### Center for Internet Security Benchmarks
+
+The Center for Internet Security (CIS) maintains benchmarks for many software products including [SQL Server](https://www.cisecurity.org/benchmark/microsoft_sql_server).  The benchmarks include a free checklist of hardening recommendations.  In addition, CIS provides a tool, CIS-Cat Pro, you can use to automated assessment of your adherence to benchmarks.  The configurable tool allows you to exclude rules that don't apply.  
+
+
 https://www.sqlshack.com/top-10-security-considerations-sql-server-instances/
 
 https://www.red-gate.com/simple-talk/databases/sql-server/security/what-to-monitor-for-sql-server-security/

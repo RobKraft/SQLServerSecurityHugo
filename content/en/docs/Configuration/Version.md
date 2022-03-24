@@ -14,10 +14,13 @@ If a security vulnerability is discovered in a version of SQL Server that is no 
 
 Microsoft offers you the ability to buy [Extended Security Support](https://docs.microsoft.com/en-us/sql/sql-server/end-of-support/sql-server-extended-security-updates), but you must purchase these before the security vulnerability is found and even extended support will eventually no longer be offered.
 
-Run this command to find the version of SQL Server you are running:
+---
+###### SQL Statements
+Run this SQL to find the version of SQL Server you are running:
 ```
-select @@version
+SELECT @@version as FullVersion, SERVERPROPERTY('ProductLevel') as ServicePack, SERVERPROPERTY('ProductVersion') as VersionNumber;
 ```
+----
 
 Additional Resources:
 

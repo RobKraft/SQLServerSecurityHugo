@@ -116,3 +116,58 @@ https://www.cisecurity.org/benchmark/microsoft_sql_server
 https://docs.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-xp-cmdshell-proxy-account-transact-sql?view=sql-server-ver15
 
 Execute As function
+
+powershell script sites
+
+
+
+CIS:
+1.1 [Latest Service Packs](/docs/configuration/version/)
+1.2 [Dedicate server to SQL Server](/docs/configuration/operating/)
+2.1 Ad Hoc
+2.2 CLR
+2.3 Cross DB
+2.4 Mail
+2.5 Ole Auto
+2.6 Remote Access
+2.7 Remote Admin
+2.8 Startup procs
+2.9 Trustworth
+2.10 - Protocols
+2.11 - Ports
+2/12 - Hide instance
+2.13 - [disable sa] (/docs/auth/authentication/)
+2/14 - [rename sa](/docs/auth/authentication/)
+2.15 - autoclose off
+2.16 - no sa login
+2.17 - clr strict
+3.1 Win Auth
+3.2 Connect Perm
+3.3 Orphan Users
+3.4 SQL Auth contained dbs
+3. - SQL Service acct
+3.6 SQ Agent acct
+3.7 Full text acct
+3.8 default perms public
+3.9 builtin groups not sql
+3.10 win local groups not logins
+3.11 public role msdb not granted
+4.1 must change sql on
+4.2 check exp on
+4.3 check policy on
+5.1 max err logs
+5.2 default trace enabled
+5.3 log failed
+55.4 capture both audit
+6.1 sanitize db input
+6.2 clr assm perm
+7.1 - sym key
+7.2 asym key
+8.1 browser service
+
+
+Principle of Least Privilege
+
+Cert https://www.cisa.gov/uscert/ics/Abstract-Defense-Depth-RP
+
+

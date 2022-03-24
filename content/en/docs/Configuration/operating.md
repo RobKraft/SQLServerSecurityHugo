@@ -10,7 +10,7 @@ weight: 4
 
 SQL Server can run on Windows or Linux.  Regardless of which operating system you use, the follow rules apply:
 
-* Run SQL Server only on supported versions of the operating system.  Don't run QL Server on old versions of the operating system that are no longer supported.
+* Run SQL Server only on supported versions of the operating system.  Don't run SQL Server on old versions of the operating system that are no longer supported.
 * Apply patches and updates, especially security patches, to the servers as soon as reasonable to reduce the risk a server exploit allows access to your SQL Server.
 * Eliminate or minimize the use of other services on your server.  To minimize the risk a vulnerability in one product leads to explotation of other products, security guidances always recommend dedicating servers to a single product or service.  This is very practicle now that virtual machines and containers are ubiquitous.  Don't run a web server, or Exchange server, or even an FTP server on a server running SQL Server.  Run only the minimal services required for the SQL Server service.
 * Microsoft recommends that you [disable netbios and SMB ports](https://docs.microsoft.com/en-us/sql/sql-server/install/security-considerations-for-a-sql-server-installation?view=sql-server-ver15) on a server running SQL Server.

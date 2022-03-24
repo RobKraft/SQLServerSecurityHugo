@@ -26,10 +26,12 @@ In your role as a DBA desiring to maximize security to prevent unwanted access i
 
 Accounts can be authenticated either by SQL Server or by the operating system.  SQL Server authentication is not enabled by default.
 
-{{< alert theme="warning" dir="ltr" >}} In most cases, you should use Windows Authentication because Windows Active Directory offers better password management features than SQL Server Authentication.
+{{< alert theme="warning" dir="ltr" >}} In most cases, you should use Windows Authentication because Windows Active Directory offers better password management features than SQL Server Authentication, and it is a little more secure.
 {{< /alert >}}  
 
 When using Windows Authentication, database administrators map groups from Windows Active Directory to Roles in SQL Server and use Active Directory to put people in groups that map to the roles needed.  
+
+In addition to disabling the 'sa' account, you should also rename the 'sa' account.  Some people argue that disabling the 'sa' account is sufficient, and it may be in many cases.  But this site believes in the security principle of implementing [Defense in Depth](/docs/resources/principles/).  
 
 {{< alert theme="danger" dir="ltr" >}}
 **1. Disable the 'sa' account and never use it!**
@@ -37,6 +39,27 @@ When using Windows Authentication, database administrators map groups from Windo
 **3. Don't allow administrative accounts to be used in non-production environments by an application.**
 {{< /alert >}}
 
+###### SQL Statements
+----
+Run this SQL to determine if the 'sa' login has been renamed.
+```
+SELECT name FROM sys.server_principals WHERE sid = 0x01;
+```
+Run this SQL to rename the 'sa' login.  You can replace formerSaAccount with any name you desire.
+```
+ALTER LOGIN sa WITH NAME = formerSaAccount;
+```
+----
+Run this SQL to determine if the 'sa' login has been disabled.  An 'is_disabled' value of 1 means the account is disabled.
+```
+SELECT name, is_disabled FROM sys.server_principals WHERE sid = 0x01;
+```
+Run this SQL to disable the 'sa' login.  Warning: If the 'sa' account has already been renamed, use the name from the query above in place of 'sa' below.  It is possible that a new account has been created and named 'sa'.  The important task is to rename the account that has a sid of 0x01.
+```
+ALTER LOGIN sa DISABLE;
+```
+----
+###### Linux
 * [Configure SQL Server to support Windows Authentication on Linux](https://www.mssqltips.com/sqlservertip/5075/configure-sql-server-on-linux-to-use-windows-authentication)
 
 
