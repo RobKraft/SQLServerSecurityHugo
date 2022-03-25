@@ -6,8 +6,8 @@ draft: false
 weight: 20
 ---
 
-###### Defense in Depth
-
+* https://docs.microsoft.com/en-us/sql/relational-databases/security/sql-server-security-best-practices?view=sql-server-ver15
+* https://www.mssqltips.com/sqlservertip/2887/sql-server-security-audit-part-2-scripts-to-help-you-or-where-can-you-find-more-information/
 * Scripts for finding Orphan Users and deleting them
 * Scripts for listing all accounts with server roles
 * Tip about having applications, especially .Net, pass their app name to SQL Server
@@ -111,11 +111,4 @@ Free stuff to do right away:
 
 * SQL Server [Vulnerability Assessment](https://docs.microsoft.com/en-us/sql/relational-databases/security/sql-vulnerability-assessment)
 * Sp_Blitz
-
-Email Mailing Lists:
-* newsletter@mssqltips.com
-* Brent Ozar
-* SQLServerCentral.com
-
-
 

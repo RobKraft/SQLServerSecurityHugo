@@ -47,6 +47,14 @@ This web site has some checklists, but for a small amount of money there are man
 
 The Center for Internet Security (CIS) maintains benchmarks for many software products including [SQL Server](https://www.cisecurity.org/benchmark/microsoft_sql_server).  The benchmarks include a free checklist of hardening recommendations.  In addition, CIS provides a tool, CIS-Cat Pro, you can use to automated assessment of your adherence to benchmarks.  The configurable tool allows you to exclude rules that don't apply.  They also offer CIS-CAT Lite for free, but it doesn't include any checks for SQL Server.
 
+https://docs.microsoft.com/en-us/sql/relational-databases/security/sql-server-security-best-practices?view=sql-server-ver15
+https://www.mssqltips.com/sqlservertip/2887/sql-server-security-audit-part-2-scripts-to-help-you-or-where-can-you-find-more-information/
+
+https://isqlplus.com/sql-server/sql-server-security-scripts/
+
+
+* [All In One SQL Audit Script](https://thedataguy.in/sql-server-security-audit-script/)
+* [Powershell Script SQL Server Audit](https://blog.pythian.com/sql-server-security-review-using-powershell/)
 
 https://www.sqlshack.com/top-10-security-considerations-sql-server-instances/
 
@@ -66,5 +74,6 @@ apexsql
 * SQL Server [Vulnerability Assessment](https://docs.microsoft.com/en-us/sql/relational-databases/security/sql-vulnerability-assessment)
 * SQL Server [Data Discover and Classification](https://docs.microsoft.com/en-us/sql/relational-databases/security/sql-data-discovery-and-classification)
 
+* [What to monitor](https://www.red-gate.com/simple-talk/databases/sql-server/security/what-to-monitor-for-sql-server-security/)
 
 SQL Server provides logs other than those mentioned above that you probably want to monitor and review occasionally.  The other logs are unlikely to contain items of interest to security professionals, but may be helpful for troubleshooting other problems.  DatabaseMail, SSRS, SSIS, etc.

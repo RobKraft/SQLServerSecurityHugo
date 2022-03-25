@@ -43,3 +43,6 @@ Trustworthy databases
 
 {{< alert theme="danger" dir="ltr" >}} **Disable XP_CMDSHELL if you are not using it.**
 {{< /alert >}}
+
+
+
