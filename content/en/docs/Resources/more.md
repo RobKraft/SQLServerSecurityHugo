@@ -29,7 +29,7 @@ CIS:
 1.1 [Latest Service Packs](/docs/configuration/version/)
 1.2 [Dedicate server to SQL Server](/docs/configuration/operating/)
 2.1 Ad Hoc
-2.2 CLR
+2.2 CLR enabled
 2.3 Cross DB
 2.4 Mail
 2.5 Ole Auto

@@ -5,8 +5,7 @@ date = "2022-03-28"
 weight = 1
 #description = "How to create and add a .Net CLR app."
 tags = [
-    "Security Reasons",
-    "Security Roles",
+    "CLR Apps",
     "2022.03"
 ]
 +++
@@ -225,7 +224,7 @@ EXECUTE spJustReturnAString
 ```
 That should have returned a "Hello World" message.  That stored procedure from the same assembly worked because it truly is SAFE.  And by SAFE, we mean that it did NOT attempt to make a call to another service, so SQL Server let it run.
 
-In SQL Server 2017, Microsoft added another setting called "CLR STRICT SECURITY".  This is turned on by default and when turned on it treats all Assemblies as UNSAFE, even if they are marked SAFE.  This means the assembly needs a certificate or an asymmetric key to be added and called by the database, even if it doesn't make calls to external services.  **Unless the database is marked Trustworthy**
+However, because the .Net Framework no longer supports Code Access Security (CAS) as a security boundary it is not a reliable blocker of external calls even if the assembly is blocked SAFE.  This led Microsoft, in SQL Server 2017, to add another setting called "CLR STRICT SECURITY".  This is turned on by default and when turned on it treats all Assemblies as UNSAFE, even if they are marked SAFE.  This means the assembly needs a certificate or an asymmetric key to be added and called by the database, even if it doesn't make calls to external services.  **Unless the database is marked Trustworthy**
 
 All the options get confusing:
 
@@ -247,6 +246,7 @@ In other words:
 An assembly marked SAFE or EXTERNAL_ACCESS does not require a certificate or an asymmetric key, but since CLR STRICT Security treats them all as UNSAFE, they are all required to have a certificate or an asymmetric key.
 
 * To see an example of signing your Assembly, check out [this article](https://www.sqlshack.com/impact-clr-strict-security-configuration-setting-sql-server-2017/).
+* Great article by [Niels Berglund about this stuff](https://nielsberglund.com/2017/07/01/sqlclr-and-certificates/)
 * [Microsoft guidance on adding keys to an Assembly](https://docs.microsoft.com/en-us/archive/blogs/dataaccesstechnologies/deploying-sql-clr-assembly-using-asymmetric-key)
 * [CLR STRICT SECURITY](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/clr-strict-security)
 * [Another exampled Calling a REST API](https://www.c-sharpcorner.com/article/calling-rest-api-service-from-sql-server-using-c-sharp-sql-clr/0)
