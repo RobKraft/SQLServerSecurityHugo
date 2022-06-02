@@ -25,7 +25,7 @@ I offer the following:
 * I can help your team adopt some practices to improve speed of delivery and quality.  Those practices include automated builds, unit tests, automated deployments, and task tracking tools.
 * I can crank out .Net code and/or SQL to solve problems.
 
-Some of stuff I am good include:
+My specialties include:
 
 * Solving problems
 * Abstracting solutions to create good coding patterns that are easy to maintain and that minimize bugs

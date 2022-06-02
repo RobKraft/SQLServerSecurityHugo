@@ -38,5 +38,6 @@ Ultimately, any security guidance depends a lot on your environment.
 
 Further Reading:
 
+* [MsSqlTips.com article](https://www.mssqltips.com/sqlservertip/7212/sql-server-port-explanation-usage/) about all SQL Server product ports.
 * Information about [other ports used by SQL Server products](https://www.sqlsplus.com/sql-server-ports-tcp-and-udp-ports/) including 1434, 2383, 2382, 135, 80, and 443.
 * Microsoft recommends that you [disable netbios and SMB ports](https://docs.microsoft.com/en-us/sql/sql-server/install/security-considerations-for-a-sql-server-installation?view=sql-server-ver15) on a server running SQL Server.

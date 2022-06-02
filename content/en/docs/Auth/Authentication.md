@@ -35,8 +35,9 @@ In addition to disabling the 'sa' account, you should also rename the 'sa' accou
 
 {{< alert theme="danger" dir="ltr" >}}
 **1. Disable the 'sa' account and never use it!**
-**2. Never allow any administrative accounts to be used by an application.**
-**3. Don't allow administrative accounts to be used in non-production environments by an application.**
+**2. Limit the System Administrator (sysadmin) role only to those who need it.**
+**3. Never allow any administrative accounts to be used by an application (Except for 3rd Party tools used to manage your SQL Servers).**
+**4. Don't allow administrative accounts to be used in non-production environments by an application.**
 {{< /alert >}}
 
 ###### SQL Statements

@@ -10,6 +10,9 @@ weight: 20
 * https://www.mssqltips.com/sqlservertip/2887/sql-server-security-audit-part-2-scripts-to-help-you-or-where-can-you-find-more-information/
 * Scripts for finding Orphan Users and deleting them
 * Scripts for listing all accounts with server roles
+* Good stuff here: https://www.sqlshack.com/sql-server-audit-overview/
+* Application Roles
+* Proxy account for XP_CMDSHELL: https://www.mssqltips.com/sqlservertip/2143/creating-a-sql-server-proxy-account-to-run-xpcmdshell/
 * Tip about having applications, especially .Net, pass their app name to SQL Server
 * Checklist for ultimate security
 * Article about levels of security: 1) Internal, not sensitive, 2) Internal, sensitive, 3) External not sensitive, 4) External and sensitive (yikes)

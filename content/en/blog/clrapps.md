@@ -2,7 +2,7 @@
 author = "Rob Kraft"
 title = "All about CLR Apps"
 date = "2022-03-28"
-weight = 1
+weight = 9996
 #description = "How to create and add a .Net CLR app."
 tags = [
     "CLR Apps",
@@ -92,7 +92,7 @@ public partial class StoredProcedures
 ```
 Notes about the code above:
 
-* The code will ccall a REST API on the Internet to return JSON with the current version of each version of SQL Server.
+* The code will call a REST API on the Internet to return JSON with the current version of each version of SQL Server.
 * The code has some lines commented out, but can be uncommented if useful for debugging.
 * The code creates a DataRecord with a single column named "FullJson" and uses the SqlPipe to send the response back to SQL Server.
 * There are two functions in the above code, spSQLServerVersions and spJustReturnAString.  They are independent of each other and will be explained below.
@@ -246,6 +246,7 @@ In other words:
 An assembly marked SAFE or EXTERNAL_ACCESS does not require a certificate or an asymmetric key, but since CLR STRICT Security treats them all as UNSAFE, they are all required to have a certificate or an asymmetric key.
 
 * To see an example of signing your Assembly, check out [this article](https://www.sqlshack.com/impact-clr-strict-security-configuration-setting-sql-server-2017/).
+* Everything you want to know about SQLCLR in [Stairway to SQLCLR by Solomon Rutzky on SQLServerCentral.com](https://www.sqlservercentral.com/stairways/stairway-to-sqlclr)
 * Great article by [Niels Berglund about this stuff](https://nielsberglund.com/2017/07/01/sqlclr-and-certificates/)
 * [Microsoft guidance on adding keys to an Assembly](https://docs.microsoft.com/en-us/archive/blogs/dataaccesstechnologies/deploying-sql-clr-assembly-using-asymmetric-key)
 * [CLR STRICT SECURITY](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/clr-strict-security)
