@@ -120,3 +120,7 @@ Checklist for new SQL Server Installation.  Security and Perf and all:
 * Include DBCC CheckDB
 * Include index rebuilds
 * 
+https://www.sqlshack.com/best-practices-for-configuring-newly-installed-sql-server-instances/
+https://blog.pythian.com/sql-server-default-configurations-change/
+https://www.brentozar.com/archive/2013/09/five-sql-server-settings-to-change/
+
