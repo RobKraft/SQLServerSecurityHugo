@@ -26,6 +26,14 @@ Tools:
 * Microsoft's list of [security-related views](https://docs.microsoft.com/en-us/sql/relational-databases/system-catalog-views/security-catalog-views-transact-sql)
 * Microsoft's list of [security-related dynamic management views](https://docs.microsoft.com/en-us/sql/relational-databases/system-dynamic-management-views/security-related-dynamic-management-views-and-functions-transact-sql)
 
+Free Tools:
+* [Red-Gate Free Tools](https://www.red-gate.com/products/free-tools)
+* [Idera Free Tools](https://www.idera.com/productssolutions/freetools/)
+* [Solar Winds Free Tools](https://www.solarwinds.com/free-tools)
+* [Sentry One Plan Explorer](https://www.sentryone.com/plan-explorer)
+* [ScaleSQL Free Tools](https://www.scalesql.com/sql-server-utilities/)
+* [Microsoft Tools](https://learn.microsoft.com/en-us/sql/tools/overview-sql-tools?)
+
 
 CIS:
 1.1 [Latest Service Packs](/docs/configuration/version/)
