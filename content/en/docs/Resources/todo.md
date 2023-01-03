@@ -114,6 +114,7 @@ Free stuff to do right away:
 
 * SQL Server [Vulnerability Assessment](https://docs.microsoft.com/en-us/sql/relational-databases/security/sql-vulnerability-assessment)
 * Sp_Blitz
+* [Microsoft Assessment](https://www.mssqltips.com/sqlservertip/7435/check-sql-server-best-practice-settings-invoke-sqlassessment/)
 
 Checklist for new SQL Server Installation.  Security and Perf and all:
 * Automate backups
