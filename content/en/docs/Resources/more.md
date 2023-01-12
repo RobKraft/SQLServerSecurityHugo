@@ -8,6 +8,8 @@ weight: 10
 
 https://www.elsevier.com/books/securing-sql-server/cherry/978-1-59749-947-7
 
+[Microsoft's SQL Server Security Best Practices] (https://learn.microsoft.com/en-us/sql/relational-databases/security/sql-server-security-best-practices?view=sql-server-ver16)
+
 [Monitoring SQL Server with Azure Sentinel](
 https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/monitoring-sql-server-with-azure-sentinel/ba-p/)
 [Setting Up SQL Audit for STIG Compliance](https://tracyboggiano.com/archive/2022/04/sql-audit-stig/)
