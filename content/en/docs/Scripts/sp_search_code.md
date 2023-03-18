@@ -32,12 +32,14 @@ To search your database code for the keyword 'FlowerOrders' and also find out th
 DECLARE @Hits int
 EXEC sp_search_code 'FlowerOrders', @Hits OUT
 SELECT 'Found ' + LTRIM(STR(@Hits)) + ' object(s) containing this keyword' AS Result
+2023.3.18 - Added searching of Job Steps
+2023.3.18 - Fixed how object schema name obtained to more accurate
 *************************************************************************************************/
 
 BEGIN
 SET NOCOUNT ON
 
-SELECT DISTINCT USER_NAME(o.uid) + '.' + OBJECT_NAME(c.id) AS 'Object name',
+SELECT DISTINCT OBJECT_SCHEMA_NAME(o.id) + '.' + OBJECT_NAME(c.id) AS 'Object name',
 CASE
 WHEN OBJECTPROPERTY(c.id, 'IsReplProc') = 1
 THEN 'Replication stored procedure'
@@ -55,7 +57,7 @@ WHEN OBJECTPROPERTY(c.id, 'IsInlineFunction') = 1
 THEN 'Inline function'
 END AS 'Object type',
 
-'EXEC sp_helptext ''' + USER_NAME(o.uid) + '.' + OBJECT_NAME(c.id) + '''' AS 'Run this command to see the object text'
+'EXEC sp_helptext ''' + OBJECT_SCHEMA_NAME(o.id) + '.' + OBJECT_NAME(c.id) + '''' AS 'Run this command to see the object text'
 
 FROM syscomments c
 INNER JOIN
@@ -73,6 +75,16 @@ OBJECTPROPERTY(c.id, 'IsScalarFunction') = 1 OR
 OBJECTPROPERTY(c.id, 'IsInlineFunction') = 1
 OR xtype='v'
 )
+
+UNION --Added by Rob Kraft to search Jobs also
+SELECT 'Job: ' + [sJOB].[name] --AS [JobName]
+    , 'Step: ' + step.step_name
+    ,'Command: ' +step.command
+FROM
+    [msdb].[dbo].[sysjobs] AS [sJOB]
+    LEFT JOIN [msdb].dbo.sysjobsteps step ON sJOB.job_id = step.job_id
+WHERE step.command LIKE '%' + @SearchStr + '%'
+
 
 ORDER BY'Object type', 'Object name'
 SET @RowsReturned = @@ROWCOUNT
