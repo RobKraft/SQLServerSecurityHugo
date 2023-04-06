@@ -109,6 +109,7 @@ Tools List:
 * Quest has a product called [ApexSQL](https://apexsql.com/) that assists your adherence to many compliance standards.
 * sql backup master  - https://www.sqlbackupmaster.com/features
 
+* Set up alerts to notify you of excessive failed login attempts from [SQLUnderCover.com](https://sqlundercover.com/2023/03/29/using-sql-alerts-to-spot-suspicious-activity-in-sql/) 
 
 Free stuff to do right away:
 
