@@ -94,6 +94,7 @@ Tools List:
 * https://www.cisecurity.org/benchmark/microsoft_sql_server
 * https://www.brentozar.com/blitz/
 * https://ola.hallengren.com/
+* http://whoisactive.com/ - SP_WhoIsActive by Adam Mechanic - a better sp_who2
 * https://www.red-gate.com/products/free-tools
 * https://www.idera.com/productssolutions/freetools
 * https://doccolabs.com/
