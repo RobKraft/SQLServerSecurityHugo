@@ -112,6 +112,7 @@ Tools List:
 
 * Set up alerts to notify you of excessive failed login attempts from [SQLUnderCover.com](https://sqlundercover.com/2023/03/29/using-sql-alerts-to-spot-suspicious-activity-in-sql/) 
 
+[Monitor and Enforce Best Practices by Using Policy-Based Management](https://learn.microsoft.com/en-us/sql/relational-databases/policy-based-management/monitor-and-enforce-best-practices-by-using-policy-based-management?view=sql-server-ver16)
 Free stuff to do right away:
 
 * SQL Server [Vulnerability Assessment](https://docs.microsoft.com/en-us/sql/relational-databases/security/sql-vulnerability-assessment)
